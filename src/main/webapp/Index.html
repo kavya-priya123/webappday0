@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+</head>
+<body>
+
+
+<!-- Calling Servlet from Client/Servlet using Cookies
+<form action="add" method="get">		
+        Enter 1st number:<input type="text" name="num1"><br>
+		Enter 2nd number:<input type="text" name="num2"><br>
+		<input type="submit">
+</form>
+--> 
+
+<!-- Calling Servlet from Client/Servlet using HttpSession 
+<form action="add" method="get">		
+        Enter 1st number:<input type="text" name="num1"><br>
+		Enter 2nd number:<input type="text" name="num2"><br>
+		<input type="submit">
+</form>
+-->
+<!-- Calling Servlet from Servlet using sendRedirect--> 
+<form action="add" method="get">		
+        Enter 1st number:<input type="text" name="num1"><br>
+		Enter 2nd number:<input type="text" name="num2"><br>
+		<input type="submit">
+</form>
+
+
+<!-- Calling Servlet from Servlet using RequestDispatcher
+<form action="add" method="get">		
+        Enter 1st number:<input type="text" name="num1"><br>
+		Enter 2nd number:<input type="text" name="num2"><br>
+		<input type="submit">
+</form>
+-->
+<!--  doGet and doPost Methods
+<form action="add" method="post">		//Post method will not put your data in the URL 
+Enter 1st number:<input type="text" name="num1"><br>
+		Enter 2nd number:<input type="text" name="num2"><br>
+		<input type="submit">
+</form>
+-->
+
+
+<!--	<form action="add">   // By default inside form we have Get Method and in this case the data will put in the URL.
+		Enter 1st number:<input type="text" name="num1"><br>
+		Enter 2nd number:<input type="text" name="num2"><br>
+		<input type="submit">
+	</form>
+  -->
+
+</body>
+</html>

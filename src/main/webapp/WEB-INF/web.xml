@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  
+  <servlet>
+  <servlet-name>Add</servlet-name>
+  <servlet-class>ai.jobiak.web.AddServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Add</servlet-name>
+  <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>fact</servlet-name>
+  <servlet-class>ai.jobiak.web.FactorialServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>fact</servlet-name>
+  <url-pattern>/factorial</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Prime</servlet-name>
+  <servlet-class>ai.jobiak.web.PrimeServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Prime</servlet-name>
+  <url-pattern>/prime</url-pattern>
+  </servlet-mapping>
+
+   <servlet>
+  <servlet-name>Square</servlet-name>
+  <servlet-class>ai.jobiak.web.SqServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Square</servlet-name>
+  <url-pattern>/sq</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>Servlet</servlet-name>
+  <servlet-class>ai.jobiak.web.MyServlet</servlet-class>
+  <init-param>
+  <param-name>name</param-name>
+  <param-value>Ramya</param-value>
+  </init-param>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>Servlet</servlet-name>
+  <url-pattern>/my</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+  <param-name>name</param-name>
+  <param-value>Kavya</param-value>
+  </context-param>
+  
+  <context-param>
+  <param-name>Phone</param-name>
+  <param-value>Samsung</param-value>
+  </context-param>
+</web-app>
